@@ -48,7 +48,6 @@ a {
 
 
 /* nav bar */
-
 .nav {
     height: 12vh;
     min-height: 60px;
@@ -557,8 +556,26 @@ p::-webkit-scrollbar {
 
     /* margin-top: -40px; */
 }
+.imu{
+    width:2%;
+    cursor: pointer;
+    
+}
+.bin{
+    width:2%;
+    cursor: pointer;
+}
+.arch{
+    position: absolute;
+    right: 10px;
+    top:20px;
+    width: 10%;
+}
+.nss{
+    display:none;
+}
 
-    @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
         .container>h1>span{font-size: 20px;margin-left: 0px;}
         .container>h1>h4{font-size: 10px;}
         .container>h1{display:flex;flex-direction: column;margin-left: 9px;}
@@ -579,22 +596,14 @@ p::-webkit-scrollbar {
         .add-remove{margin-right: -20px;
             margin-left: 10px;
         }
-    }
-    .imu{
-        width:2%;
-        cursor: pointer;
-        
-    }
-    .bin{
-        width:2%;
-        cursor: pointer;
-    }
-    .arch{
-        position: absolute;
-        right: 10px;
-        top:20px;
-        width: 10%;
-    }
-    .nss{
-        display:none;
-    }
+        .imu{
+            width:10%;
+            /* cursor: pointer; */
+            
+        }
+        .bin{
+            width:10%;
+            /* cursor: pointer; */
+        }
+}
+    
